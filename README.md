@@ -7,8 +7,9 @@ Sidebar
 . home page
 . notifications
 . profile settings
+. Post button
 
-Feed
+For you page
 . see others tweets
 . see likes, reposts
 
