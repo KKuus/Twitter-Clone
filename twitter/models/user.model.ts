@@ -1,4 +1,4 @@
-import { Schema } from 'mongoose';
+import { Schema, model, models } from 'mongoose';
 
 const UserSchema= new Schema({
     name: { type: String, required: true },
@@ -11,7 +11,7 @@ const UserSchema= new Schema({
     location: { type: String},
     followers: { type: Schema.Types.ObjectId, ref: 'User'},
     following: { type: Schema.Types.ObjectId, ref: 'User'},
-    notifications: { type: Schema.Types.ObjectId, ref: 'Notification'},
+    notifications: [{ type: Schema.Types.ObjectId, ref: 'Notification'}],
 },
      {timestamps: true}
 );
