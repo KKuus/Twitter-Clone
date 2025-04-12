@@ -1,5 +1,9 @@
-import {SessionProvider} from "next-auth/react";
-import {ThemeProvider as NextThemesProvider,ThemeProviderProps,} from "next-themes";
+"use client";
+import { SessionProvider } from "next-auth/react";
+import {
+  ThemeProvider as NextThemesProvider,
+  ThemeProviderProps,
+} from "next-themes";
 import React from "react";
 
 const Provider = ({ children, ...props }: ThemeProviderProps) => {
