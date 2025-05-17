@@ -1,17 +1,17 @@
-Twitter MVP,
-Account system
+# Twitter MVP,
+## Account system
 . sign up / sign in
 
-Sidebar
+## Sidebar
 . home page
 . profile settings
 . Post button
 
-For you page
+## For you page
 . see others tweets
 . see likes
 
-Viewing someones profile
+## Viewing someones profile
 . Profile picture and banner
 . following
 . their tweets
